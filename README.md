@@ -22,7 +22,7 @@ It was created for CE301 Capstone Project module, based on the [Project Choices 
 # Documentation
 
 #### The [docs](./docs) directory contains the following:  
-* [Final report / dissertation](./docs/CE301 Final report (1904535).pdf)  
+* [Final report / dissertation](./docs/CE301%20Final%20report%20%281904535%29.pdf)  
 * [Project introduction](./docs/Project%20introduction.docx) Word document, which includes write-ups about objectives, background reading and project management  
 * [features_documentation.md](./docs/features_documentation.md) file, which demonstrates implemented functionality of the program   
 * [implementation_report.md](./docs/implementation_report.md) file, which describes how the program was implemented, what technology and design patterns were used  
