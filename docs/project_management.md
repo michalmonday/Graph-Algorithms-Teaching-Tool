@@ -29,7 +29,7 @@ My organisation of the project could be split into several phases:
 	* [Reading Qt documentation](https://cseejira.essex.ac.uk/browse/A301079-4)  
 	* [Finding relevant Qt examples](https://cseejira.essex.ac.uk/browse/A301079-5)  
 	* I undertook investigation to verify the use case of MST as a near-optimal route.  
-	I was intrigued by the claims that MST can be used to find near-optimal route from the article called “An Application of Minimum Spanning Trees to Travel Planning” (2010) by L Fitina et al. I wrote a code to verify accuracy of few statements from that article and presented my findings on page 14 of [Project introduction document](./challenge week/Project introduction.docx).  
+	I was intrigued by the claims that MST can be used to find near-optimal route from the article called “An Application of Minimum Spanning Trees to Travel Planning” (2010) by L Fitina et al. I wrote a code to verify accuracy of few statements from that article and presented my findings on page 14 of [Project introduction document](./docs/Project%20introduction.docx).  
 	![IMAGE DIDNT SHOW](https://raw.githubusercontent.com/michalmonday/files/master/ce301%20Capstone%20project/pics/mvp/mst_use_case_investigation_results.png)  
 * tinkering with researched resources, trying to implement foundations for drawing a graph and implementing the first algorithm (e.g. drawing circles and lines to represent graph vertices and edges, implementing text-input fields for edge-weights).  
 
@@ -37,11 +37,11 @@ My organisation of the project could be split into several phases:
 ### Challenge week 
 During the challenge week I accomplished the following tasks:  
 * [Formulated project objectives](https://cseejira.essex.ac.uk/browse/A301079-7)  
-	These can be viewed in the [Project introduction document](./challenge week/Project introduction.docx)  
+	These can be viewed in the [Project introduction document](./docs/Project%20introduction.docx)  
 * [Documented summer coding](https://cseejira.essex.ac.uk/browse/A301079-12)  
 * [Added facility to create and modify a graph](https://cseejira.essex.ac.uk/browse/A301079-10)  
 * [Implemented a single algorithm](https://cseejira.essex.ac.uk/browse/A301079-11)  
-* Created extensive [Project introduction document](./challenge week/Project introduction.docx)  
+* Created extensive [Project introduction document](./docs/Project%20introduction.docx)  
 
 At the end of the challenge week I created [0.1.0 release](https://cseejira.essex.ac.uk/projects/A301079/versions/14120) on Jira which contains all issues completed up to the challenge week:  
 
