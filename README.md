@@ -31,9 +31,44 @@ It was created for CE301 Capstone Project module, based on the [Project Choices 
 * [testing_report.md](./docs/testing_report.md) file, which describes what kind of testing was undertaken and for what purposes  
 * [academic poster](./docs/poster.pptx)  
 
-# Preview
+# Implemented algorithms
+Right arrow button proceeds to the next step of algorithm. Colouring is used to signify nodes/edges of the graph. Where applicable changes are marked using orange colour (e.g. in collection items, or on the graph itself). For all algorithms except Kruskals, the user can select the starting node by clicking on it. It is also possible to reset the algorithm mid-run by pressing escape. Graph modification is partially disabled after making the first algorithm step, nodes can be moved, but they can't be added or removed, edge weights also cannot be changed (because such changes would disrupt algorithms integrity).  
 
-![IMAGE DIDNT SHOW](https://raw.githubusercontent.com/michalmonday/files/master/ce301%20Capstone%20project/pics/mvp/preview.png)  
+## Prim's
+
+![IMAGE DIDNT SHOW](https://raw.githubusercontent.com/michalmonday/files/master/ce301%20Capstone%20project/gifs/mvp/prims_new.gif)  
+
+## Kruskal's
+
+As the algorithm progresses, added edges form multiple sub-graphs that are marked using different colours. Additionally, the root node of each sub-graph is marked with violet colour which gets reverted to default when sub-graph is merged into another sub-graph (by newly added edge).  
+    
+![IMAGE DIDNT SHOW](https://raw.githubusercontent.com/michalmonday/files/master/ce301%20Capstone%20project/gifs/mvp/kruskals.gif)  
+
+## Dijkstra
+
+As the algorithm progresses, edges that are part of current optimal paths get assigned total distance (blue coloured value inside brackets) from starting node.  
+
+If the "Use suggested graphs" checkbox is checked then the graph is set to the one used by Dr. Abdul Bari in his [Dijkstra algorithm video](https://www.youtube.com/watch?v=XB4MIexjvY0). Having only 6 nodes, it performs "relaxation" 3 times in total (not counting the initial nodes set to INT_MAX), which can be seen on animation below (previously blue edges turn gray because they're no longer optimal).    
+
+![IMAGE DIDNT SHOW](https://raw.githubusercontent.com/michalmonday/files/master/ce301%20Capstone%20project/pics/mvp/abdul_bari_dijkstra_graph.png)  
+
+![IMAGE DIDNT SHOW](https://raw.githubusercontent.com/michalmonday/files/master/ce301%20Capstone%20project/gifs/mvp/dijkstra.gif)  
+
+## Breadth first search
+
+Similarily to DFS, the weights of edges become hidden when BFS is selected. As the algorithm progresses, the edge weights get assigned distance from the root node.  
+
+![IMAGE DIDNT SHOW](https://raw.githubusercontent.com/michalmonday/files/master/ce301%20Capstone%20project/gifs/mvp/bfs.gif)  
+
+## Depth first search
+
+Similarily to BFS, the weights of edges become hidden when DFS is selected. As the algorithm progresses, the edge weights get assigned distance from the root node.  
+
+![IMAGE DIDNT SHOW](https://raw.githubusercontent.com/michalmonday/files/master/ce301%20Capstone%20project/gifs/mvp/dfs.gif)  
+
+
+
+
 
 # Author 
 
